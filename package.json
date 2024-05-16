@@ -1,6 +1,6 @@
 {
   "name": "@web-baseline/count-to",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "type": "module",
   "main": "dist/index.js",
   "exports": {
@@ -32,6 +32,7 @@
     "type": "git",
     "url": "git+https://github.com/web-baseline/count-to.git"
   },
+  "license": "MIT",
   "peerDependencies": {
     "vue": ">=3.3"
   },
