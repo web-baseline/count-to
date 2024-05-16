@@ -20,10 +20,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: lts/*
-          cache: yarn
-      - run: yarn install
+          cache: npm
+      - run: npm install
       - name: Build
-        run: yarn demo:build
+        run: npm run demo:build
       - uses: actions/configure-pages@v2
       - uses: actions/upload-pages-artifact@v1
         with:
