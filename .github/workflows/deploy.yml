@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: lts/*
           cache: yarn
-      - run: yarn install --frozen-lockfile
+      - run: yarn install
       - name: Build
         run: yarn demo:build
       - uses: actions/configure-pages@v2
